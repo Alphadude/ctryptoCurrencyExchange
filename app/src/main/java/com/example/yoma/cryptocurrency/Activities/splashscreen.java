@@ -1,8 +1,10 @@
-package com.example.yoma.cryptocurrency;
+package com.example.yoma.cryptocurrency.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+
+import com.example.yoma.cryptocurrency.R;
 
 public class splashscreen extends AppCompatActivity {
 

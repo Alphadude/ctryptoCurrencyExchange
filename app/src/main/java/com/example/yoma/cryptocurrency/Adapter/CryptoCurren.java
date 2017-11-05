@@ -17,7 +17,7 @@ import android.widget.Toast;
 import com.couchbase.lite.CouchbaseLiteException;
 import com.couchbase.lite.Database;
 import com.couchbase.lite.Document;
-import com.example.yoma.cryptocurrency.DisplayXchange;
+import com.example.yoma.cryptocurrency.Activities.DisplayXchange;
 import com.example.yoma.cryptocurrency.Helper.DataHelper;
 import com.example.yoma.cryptocurrency.Models.CryptoCurrency;
 import com.example.yoma.cryptocurrency.R;

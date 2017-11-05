@@ -1,4 +1,4 @@
-package com.example.yoma.cryptocurrency;
+package com.example.yoma.cryptocurrency.Activities;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,6 +11,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.yoma.cryptocurrency.NetworkUtil.NetworkCall;
+import com.example.yoma.cryptocurrency.R;
 
 import java.util.HashMap;
 

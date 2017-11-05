@@ -1,7 +1,9 @@
-package com.example.yoma.cryptocurrency;
+package com.example.yoma.cryptocurrency.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.yoma.cryptocurrency.R;
 
 public class ConversionScreen extends AppCompatActivity {
 

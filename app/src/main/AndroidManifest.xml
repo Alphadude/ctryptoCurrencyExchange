@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".splashscreen"
+        <activity android:name=".Activities.splashscreen"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,11 +21,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Home"
+            android:name=".Activities.Home"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ConversionScreen"></activity>
-        <activity android:name=".DisplayXchange"></activity>
+        <activity android:name=".Activities.ConversionScreen"></activity>
+        <activity android:name=".Activities.DisplayXchange"></activity>
     </application>
 
 </manifest>

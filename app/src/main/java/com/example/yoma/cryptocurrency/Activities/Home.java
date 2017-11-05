@@ -1,4 +1,4 @@
-package com.example.yoma.cryptocurrency;
+package com.example.yoma.cryptocurrency.Activities;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -32,6 +32,7 @@ import com.example.yoma.cryptocurrency.Models.CryptoCurrency;
 import com.example.yoma.cryptocurrency.Models.SpinnerCoinModel;
 import com.example.yoma.cryptocurrency.Models.SpinnerCountryModel;
 import com.example.yoma.cryptocurrency.NetworkUtil.NetworkCall;
+import com.example.yoma.cryptocurrency.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

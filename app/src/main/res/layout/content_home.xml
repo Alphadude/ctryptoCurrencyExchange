@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.yoma.cryptocurrency.Home"
+    tools:showIn="@layout/activity_home">
+
+    <TextView
+        android:id="@+id/tvEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:text="Oops, seems like there is no item yet, try adding an item by clicking on the button below"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/myCard_Rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
